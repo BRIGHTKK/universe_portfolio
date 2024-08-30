@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Your Name</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#selected-work">Selected Work</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://www.instagram.com/yourinstagram" target="_blank">Instagram</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="selected-work">
+        <h2>Selected Work</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="image1.jpg" alt="Work 1">
+            </div>
+            <div class="gallery-item">
+                <img src="image2.jpg" alt="Work 2">
+            </div>
+            <div class="gallery-item">
+                <img src="image3.jpg" alt="Work 3">
+            </div>
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>ここに自己紹介や活動内容を記載します。</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>ここに連絡先やお問い合わせ方法を記載します。</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
